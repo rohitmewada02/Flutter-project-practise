@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('My First Flutter App'),
+        ),
+        body: const Center(
+          child: Text(
+            "Hello Rohit , i from in indore",
+            style: TextStyle(
+              fontSize: 30,
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
+}
