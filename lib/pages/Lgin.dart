@@ -11,12 +11,15 @@ class Loginn extends StatelessWidget {
           child: Text('Login Page'),
         ),
       ),
-      body: Padding(
+      body: 
+      Padding(
         padding: const EdgeInsets.symmetric(
           vertical: 16.0,
           horizontal: 32.0,
         ),
-        child: Column(
+
+        child: SingleChildScrollView(
+          child: Column(
           children: [
             Image.asset(
               'assets/images/login_image.png',
@@ -70,6 +73,8 @@ class Loginn extends StatelessWidget {
             ),
           ],
         ),
+        ),
+        
       ),
     );
   }
